@@ -143,7 +143,7 @@ const AdminProfile = (props) => {
             <div class="col-md-4 gradient-custom text-center text-white"
               style={{orderTopLeftRadius: ".5rem", 
               borderBottomLeftRadius: ".5rem"}}>
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+              <img src="https://i.pinimg.com/originals/64/aa/fb/64aafb11225b6b5403c28aa5faca7cca.jpg"
                 alt="Avatar" class="img-fluid my-5" style={{width: "80px" }}/>
               <h5>{currentUser.username}</h5>
               <p>ADMIN</p>
@@ -160,7 +160,7 @@ const AdminProfile = (props) => {
                   </div>
                   <div class="col-6 mb-3">
                     <h6>Phone</h6>
-                    <p class="text-muted">555555555</p>
+                    <p class="text-muted">{currentUser.phonenumber +91}</p>
                   </div>
                 </div>
                 <h6>Projects</h6>

@@ -41,6 +41,10 @@
   }
   
   
+
+  .card-body{
+  background-color: rgb(239, 234, 239);
+  }
   /* Sidebar Styles */
   
   .sidebar-nav {
@@ -110,3 +114,5 @@
       margin-right: 0;
     }
   }
+  
+  
