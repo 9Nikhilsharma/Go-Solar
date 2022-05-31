@@ -41,7 +41,10 @@ import UserProfile from "./components/user/profile";
 /* import Sidebar from "./components/admin/sidebar"; */
 import ManageUser from "./components/admin/manageuser";
 import DashBoard from "./components/admin/dashboard";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 492bb185a9330cfb9d17fdfa8f4658e1778ae6c1
 
 
 function App() {
@@ -90,7 +93,10 @@ function App() {
           {/* <Route element={<NewLogin />} path="newlogin" /> */}
           {/* <Route element={<NewSignup />} path="newsignup" /> */}
           <Route element={<BrowseEquipment />} path="browseEquipment" />
+<<<<<<< HEAD
           
+=======
+>>>>>>> 492bb185a9330cfb9d17fdfa8f4658e1778ae6c1
           <Route element={<EquipmentDetail />} path="equipmentDetails/:id" />
           <Route element={<Home />} path="home" />
           <Route element={<Ordering />} path="ordering" />
